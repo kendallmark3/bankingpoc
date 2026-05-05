@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" role="img" aria-label="Bank of Intent logo">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1b3f6e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f2444;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8c96a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8942a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Shield -->
+  <path d="M10,8 L50,8 L50,46 Q50,62 30,70 Q10,62 10,46 Z" fill="url(#shieldGrad)" />
+
+  <!-- Shield highlight line -->
+  <path d="M10,8 L50,8 L50,46 Q50,62 30,70 Q10,62 10,46 Z"
+        fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Pediment (triangle top of building) -->
+  <polygon points="16,28 30,18 44,28" fill="url(#goldGrad)" />
+
+  <!-- Building columns -->
+  <rect x="17" y="28" width="4" height="16" rx="1" fill="url(#goldGrad)" />
+  <rect x="24" y="28" width="4" height="16" rx="1" fill="url(#goldGrad)" />
+  <rect x="31" y="28" width="4" height="16" rx="1" fill="url(#goldGrad)" />
+  <rect x="38" y="28" width="4" height="16" rx="1" fill="url(#goldGrad)" />
+
+  <!-- Base -->
+  <rect x="15" y="44" width="30" height="3" rx="1" fill="url(#goldGrad)" />
+
+  <!-- Wordmark: BOfI -->
+  <text x="64" y="38"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="30"
+        font-weight="700"
+        letter-spacing="1"
+        fill="#1b3f6e">BOfI</text>
+
+  <!-- Divider rule -->
+  <line x1="64" y1="44" x2="308" y2="44" stroke="#c9a84c" stroke-width="1.2" />
+
+  <!-- Full name -->
+  <text x="64" y="60"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="13"
+        font-weight="400"
+        letter-spacing="3.5"
+        fill="#4a6080">BANK OF INTENT</text>
+</svg>
